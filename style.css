@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+}
+
+/* utility classes -  */
+.flex-c-sb{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+/* main - css */
+.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+header{
+    height: 8vh;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0 2%;
+}
+header .logo{
+    display: block;
+}
+header .logo .ri-spotify-fill{
+    font-size: 2.5rem;
+    padding: 8px 0;   
+}
+
+header nav{
+    width: 70%;
+}
+header nav .search{
+    width: 40%;
+    gap: 5%;
+    position: relative;
+}
+header nav .ri-search-line{
+    position: absolute;
+    left: 20%;
+    font-size: 1.3rem;
+}
+header nav .title{
+    background-color: #2A2A2A;
+    color: #ffffff;
+    font-size: 1.6rem;
+    text-align: center;
+    border-radius: 50%;
+    padding: 7px 10px;
+
+}
+header nav .search input{
+    background-color: #2A2A2A;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 14px 100px;
+}
+header nav .ri-folder-open-line{
+    position: absolute;
+    right: 5%;
+    font-size: 1.3rem;
+}
+header nav .btns{
+    width: 40%;
+    /* gap: 3%; */
+    /* padding-right: 5%; */
+}
+header nav .btns .app{
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 500;
+    border: none;
+    padding: 5px 20px;
+    white-space: nowrap;
+    border-radius: 25px;
+}
+header nav .btns .explore{
+    font-weight: 600;
+    border: none;
+    padding: 7px 20px;
+    white-space: nowrap;
+    border-radius: 25px;
+}
+header nav .btns .profile{
+    padding: 20px 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: orangered;
+    color: #ffffff;
+}
+header nav .btns .icon{
+    background: transparent;
+    border: none;
+}
+.ri-notification-3-fill{
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.main-content{
+    height: 92vh;
+    background-color: #2A2A2A;
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+}
+.main-content .playlist{
+    width: 30%;
+    height: 100%;
+    /* background-color: maroon; */
+    /* border-radius: 50px; */
+}
+.main-content .albums{
+    width: 45%;
+    height: 100%;
+    /* background-color: orangered; */
+}
+.main-content .play{
+    width: 25%;
+    height: 100%;
+    /* background-color: lawngreen; */
+}
+
+.play-bar{
+    position: absolute;
+    background-color: #000000;
+    height: 10vh;
+    width: 100%;
+    top: 90%;
+}

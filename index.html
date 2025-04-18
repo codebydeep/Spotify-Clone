@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <!-- header section  -->
+        <header class="flex-c-sb">
+            <div class="logo"><i class="ri-spotify-fill"></i></div>
+
+            <nav class="flex-c-sb">
+                <div class="search flex-c-sb">
+                    <i class="ri-search-line"></i>
+                    <div class="title"><i class="ri-home-4-fill"></i></div>
+                    <input type="text" placeholder="What do you want to play?">
+                    <i class="ri-folder-open-line"></i>
+                </div>
+
+                <div class="btns flex-c-sb">
+                    <button class="explore">Explore Premium</button>
+                    <button class="app">
+                        <i class="ri-download-line"></i>
+                        Install App</button>
+                    <button class="icon"><i class="ri-notification-3-fill"></i></button>
+                    <button class="profile"></button>
+                </div>
+            </nav>
+        </header>
+
+        <div class="main-content">
+            <div class="playlist"></div>
+            <div class="albums"></div>
+            <div class="play"></div>
+        </div>
+
+        <div class="play-bar"></div>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
