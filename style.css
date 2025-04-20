@@ -113,18 +113,18 @@ header nav .btns .icon{
 .main-content .playlist{
     width: 30%;
     height: 100%;
-    /* background-color: maroon; */
+    background-color: maroon;
     /* border-radius: 50px; */
 }
 .main-content .albums{
     width: 45%;
     height: 100%;
-    /* background-color: orangered; */
+    background-color: orangered;
 }
 .main-content .play{
     width: 25%;
     height: 100%;
-    /* background-color: lawngreen; */
+    background-color: lawngreen;
 }
 
 .play-bar{
